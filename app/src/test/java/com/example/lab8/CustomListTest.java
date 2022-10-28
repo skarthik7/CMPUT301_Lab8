@@ -57,8 +57,8 @@ public class CustomListTest {
         City testCity = new City("Estevan", "SK");
         City testCity2 = new City("Saskatoon", "SK");
         list.addCity(testCity);
-        assertFalse(list.hasCity(testCity));
-        assertTrue(list.hasCity(testCity2));
+        assertTrue(list.hasCity(testCity));
+        assertFalse(list.hasCity(testCity2));
     }
 
 
